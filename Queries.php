@@ -190,7 +190,6 @@
         function connectToDB() {
             global $db_conn;
         
-            // $db_conn = OCILogon("ora_CWL", "a46764429", "dbhost.students.cs.ubc.ca:1522/stu");
             $db_conn = $mysqli = new mysqli("127.0.0.1","navid","12345","housing");
 
             if ($db_conn) {
