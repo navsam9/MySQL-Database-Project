@@ -190,7 +190,7 @@
         function connectToDB() {
             global $db_conn;
         
-            $db_conn = $mysqli = new mysqli("127.0.0.1","navid","12345","housing");
+            $db_conn = $mysqli = new mysqli("port","user","pass","db");
 
             if ($db_conn) {
                 return true;
